@@ -32,13 +32,12 @@ VAWT using centrifugal-pendulum pitch control (CPPC).
 The most important result is **not** a single Cp number:
 
 - The small Sharp-inspired CPPC rotor is close to a collapse threshold.
-  Its UQ result is bimodal: working-branch mean Cp ≈ 0.14, with about 14%
-  of samples collapsing.
+  Its uncertainty result is bimodal: most samples remain on a working
+  branch, while a substantial minority collapse.
 - A larger, higher-aspect-ratio passive design reaches substantially higher
   model Cp.
-- The project compares passive CPPC with fixed-rpm and fair rigid-blade
-  baselines, but these are **model comparisons**, not predictions for a
-  built machine.
+- Comparisons against fixed-rpm and rigid-blade baselines are model
+  comparisons, not predictions for a built machine.
 
 ### How I used AI
 
